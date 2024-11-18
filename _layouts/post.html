@@ -14,10 +14,10 @@ layout: default
     
     <div class="tags-container" >
         {% for tag in page.tags %}
-        <span dir="ltr">#<a href="/tags/{{ tag }}/">{{ tag }}</a></span>
+        <span dir="ltr">#<a href="{{ site.baseurl }}/tags/{{ tag }}/">{{ tag }}</a></span>
         {% endfor %}
     </div>
-    
+
     {{ content }}
     
     <script src="/assets/js/date_format.js"></script>

@@ -7,4 +7,5 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 
 markdown: kramdown
 highlighter: rouge
+baseurl: ""
 url: https://elfaidi-ghassen.github.io
