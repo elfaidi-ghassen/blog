@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container post-page">
+    
+    <h2 class="post-heading">{{ page.title }}</h2>
+    
+    <div class="date-container">
+        <i class="fa-solid fa-calendar-days"></i>
+        نشر بتاريخ 
+        <span class="date">{{ page.date | date_to_string }}</span>
+    </div>    
+    
+    <div class="tags-container" >
+        {% for tag in page.tags %}
+        <span dir="ltr">#<a href="/tags/{{ tag }}/">{{ tag }}</a></span>
+        {% endfor %}
+    </div>
+    
+    {{ content }}
+    
+    <script src="/assets/js/date_format.js"></script>
+    
+</div>
+

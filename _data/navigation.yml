@@ -1,0 +1,6 @@
+- name: الصفحة الرئيسية
+  link: /
+- name: كتاباتي
+  link: /posts/
+- name: عن الموقع
+  link: /about/

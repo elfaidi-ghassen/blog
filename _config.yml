@@ -1,0 +1,9 @@
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
+
+permalink: /:categories/:year/:month/:day/:title:output_ext
+
+markdown: kramdown
+highlighter: rouge

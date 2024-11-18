@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+        {% for item in site.data.navigation %}
+        <a href="{{ item.link }}">
+            <li data-nav-name="{{ item.name }}" class="{% if page.url==item.link %}active{% endif %}">
+                {{ item.name }}
+            </li>
+            </a>
+        {% endfor %}
+    </ul>
+</nav>

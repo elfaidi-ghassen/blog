@@ -1,0 +1,15 @@
+---
+layout: default
+title: Staff
+permalink: /tags/
+
+---
+<h1>Staff</h1>
+
+<ul>
+  {% for tag in site.tags %}
+    <li>
+      <h2><a href="{{ tag.url }}">{{ tag.tag_name }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
